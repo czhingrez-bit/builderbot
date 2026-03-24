@@ -9,6 +9,9 @@
     "dev": "npm run lint && nodemon --signal SIGKILL ./src/app.js",
     "start": "node ./src/app.js"
   },
+  "engines": {
+    "node": ">=20"
+  },
   "keywords": [],
   "dependencies": {
     "@builderbot/bot": "latest",
